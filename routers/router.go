@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"my-awesome-go/controllers"
+	"github.com/snghnaveen/fast-resume-builder/controllers"
 	"github.com/astaxie/beego"
 )
 

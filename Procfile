@@ -1,1 +1,1 @@
-web: main
+web: fast-resume-builder
