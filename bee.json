@@ -1,0 +1,10 @@
+{
+  "watch_ext": [
+    "go",
+    "conf",
+    "html",
+    "css",
+    "js",
+    "tpl"
+  ]
+}
