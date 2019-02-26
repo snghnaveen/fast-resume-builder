@@ -83,13 +83,14 @@
     </style>
 </head>
 
-<body>
-<br>
-<form class="form-horizontal" action="/build" method="post" id="resume_build_form">
+<body class="container" background="/static/img/bg_img.jpg">
+<form class="container form-horizontal" action="/build" method="post" id="resume_build_form">
     <fieldset>
 
-        <!-- Form Name -->
-        <legend>Form Name</legend>
+        <div class="form-group">
+            <h3 class="col-md-4 control-label">Build resume in seconds...</h3>
+        </div>
+
 
         <!-- Text input-->
         <div class="form-group">
@@ -173,7 +174,8 @@
                             <input type="text" class="form-control" name="experience_from" id="experience_from"/>
                         </td>
                         <td class="col-sm-1">
-                            <input type="text" class="form-control" name="experience_description" id="experience_description"/>
+                            <input type="text" class="form-control" name="experience_description"
+                                   id="experience_description"/>
                         </td>
                     </tr>
                     </tbody>
@@ -209,7 +211,8 @@
                             <input type="text" class="form-control" name="education_from" id="education_from"/>
                         </td>
                         <td class="col-sm-1">
-                            <input type="text" class="form-control" name="education_description" id="education_description"/>
+                            <input type="text" class="form-control" name="education_description"
+                                   id="education_description"/>
                         </td>
                     </tr>
                     </tbody>
@@ -218,7 +221,6 @@
             </div>
         </div>
 
-        <br>
         <br>
         <!-- Button -->
         <div class="form-group">
